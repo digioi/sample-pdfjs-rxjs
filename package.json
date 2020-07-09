@@ -1,0 +1,22 @@
+{
+  "name": "pdf-canvas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/*.pdf src/pdf-worker.ts src/index.html",
+    "dev:watch": "parcel watch src/app.ts src/pdf-worker.ts",
+    "build": "parcel build src/helloworld.pdf src/app.ts src/pdf-worker.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "pdfjs-dist": "^2.4.456",
+    "rxjs": "^6.6.0"
+  },
+  "devDependencies": {
+    "typescript": "^3.9.6"
+  }
+}
